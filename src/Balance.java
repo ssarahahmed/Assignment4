@@ -50,4 +50,10 @@ public class Balance {
             return "NO";
         }
     }
+
+    public static void main(String[] args) {
+        System.out.println(isBalanced("{[()]}"));           // YES
+        System.out.println(isBalanced("{[(])}"));           // NO
+        System.out.println(isBalanced("{{[[(()<>)]]}}"));   // YES
+    }
 }
