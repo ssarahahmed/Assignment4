@@ -15,7 +15,6 @@ public class Balance {
                     symbol != '<' && symbol != '>' &&
                     symbol != '[' && symbol != ']' &&
                     symbol != '¿' && symbol != '?') {
-
                 return "ERROR: Invalid input. Only ( ) { } < > [ ] ¿ ? are allowed.";
             }
 
