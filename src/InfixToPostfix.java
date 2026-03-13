@@ -60,4 +60,7 @@ public class InfixToPostfix {
         return result;
     }
 
+    public static void main(String[] args) {
+        System.out.println(infixToPostfix("a+b*(c^d-e)^(f+g*h)-i")); // abcd^e-fgh*+^*+i-
+    }
 }
