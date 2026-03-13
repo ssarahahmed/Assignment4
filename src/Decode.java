@@ -56,4 +56,10 @@ public class Decode {
         return stack.peek();
     }
 
+
+    public static void main(String[] args) {
+        System.out.println(Decode("3[a]2[bc]"));       // aaabcbc
+        System.out.println(Decode("3[a2[c]]"));        // accaccacc
+        System.out.println(Decode("2[abc]3[cd]ef"));   // abcabccdcdcdef
+    }
 }
